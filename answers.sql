@@ -45,3 +45,11 @@ FROM
         Product
     FROM ProductSplit
 ) AS NormalizedProducts;
+
+
+QUESTION 2
+
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    CustomerName VARCHAR(255)
+);
